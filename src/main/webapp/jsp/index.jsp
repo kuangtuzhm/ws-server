@@ -6,11 +6,11 @@
   <script src="/js/jquery-1.8.3.min.js"></script>
   <script language="javascript" type="text/javascript">
   
-  //var wsBaseUri = "ws://localhost/websocket";
-  //var serverBaseUri = "http://localhost";
+  var wsBaseUri = "ws://localhost/websocket";
+  var serverBaseUri = "http://localhost";
   
-  var wsBaseUri = "ws://172.16.0.104/websocket";
-  var serverBaseUri = "http://172.16.0.104";
+  //var wsBaseUri = "ws://172.16.0.104/websocket";
+  //var serverBaseUri = "http://172.16.0.104";
   
   var heartCheck = {
 		    timeout: 60000,//60s
